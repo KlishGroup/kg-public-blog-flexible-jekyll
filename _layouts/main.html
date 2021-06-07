@@ -3,14 +3,16 @@ layout: default
 ---
 
 <header class="main">
-    <div class="logo">
-      <div class="logo-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
-      </div>
-    </div>
-	<nav>
-		<a class="nav__link" href="https://www.klishgroup.com" target="_blank">KlishGroup.com</a>
-	</nav>
+	<div class="contents">
+		<div class="logo">
+		  <div class="logo-image">
+			<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+		  </div>
+		</div>
+		<nav>
+			<a class="nav__link" href="https://www.klishgroup.com" target="_blank">KlishGroup.com</a>
+		</nav>
+	</div>
  </header> <!-- End Header -->
   
 <div class="body-content">
@@ -21,6 +23,9 @@ layout: default
 			  <p>{{site.about-author}}</p>
 			</div>
 		</div>
+		
+		<h3>Want to be kept up to date?</h3>
+		<button class="card">Subscribe</button>
 		
 		<h3>Previous Clients</h3>
 			<div class="clients">
