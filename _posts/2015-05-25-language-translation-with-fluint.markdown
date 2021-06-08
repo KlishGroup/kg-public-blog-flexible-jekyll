@@ -6,7 +6,9 @@ description: The importants of Translation, how localization works in TeamSite a
 img: pexels-pixabay-270360.jpg 	
 ---
 
-### Integrate the translation process directly into the authoring workflow of your Content Management System.
+
+### Integrate the translation process directly into the authoring workflow of your Content Management System.  
+&nbsp;  
 
 ## Why Translate your Site?
 
@@ -26,7 +28,6 @@ translation is more important than ever. Consider localizing content to:
 
 &nbsp;  
 ## Picking the Right Translation Service  
-&nbsp;  
 
 ### Option 1:  Machine Translation
 Artificial Intelligence backed translation platforms like Google Translate, iTranslate and others are a fast and low cost option.  
@@ -40,7 +41,7 @@ Use these services when:
 
 -   Low Cost option
 
-> Choose Machine translation for general copy on your website, blog or newsletter.
+> **Choose Machine translation for general copy on your website, blog or newsletter.**
  
 &nbsp; 
 ### Option 2:  Human Translation with Translation Memory
@@ -60,7 +61,7 @@ Human-backed translation improves on Machine Translation for:
 
     -   E.g. "We Don't Need No Education!" by Pink Floyd
 
-> Choose human-backed translation when you have technical writing requirements or are looking for a more consistent, culturally accurate tone across your site.
+> **Choose human-backed translation when you have technical writing requirements or are looking for a more consistent, culturally accurate tone across your site.**
 
 
 Further Reading: [How Accurate is Google
@@ -74,8 +75,7 @@ There are several options for the folder structure of pages, content items, and 
 
 This is a case where the site’s structure is identical in all
 localized renditions of the site. One way to accomplish this is to build a single page but
-have LiveSite Content Services (LSCS) deliver different translated
-content items to each page individually based on the language code in the URL.
+have the site query for different translated content items to each page individually based on the language code in the URL.
 
 <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image2.png" style="width:6.5in;height:2.71875in" alt="Diagram Description automatically generated" />
 
@@ -101,7 +101,7 @@ By using a collection of TeamSite Workflow Processes that guide the
 translation process within the CMS, Fluint enables content
 submission and retrieval within TeamSite platform.​
 
-> **The Fluint Translation Connector can integrate both Machine and Human-backed translation providers to TeamSite via the content authoring workflow process.  
+> **The Fluint Translation Connector can integrate both Machine and Human-backed translation providers to TeamSite via the content authoring workflow process.**  
 
 ## Fluint’s Capabilities
 
