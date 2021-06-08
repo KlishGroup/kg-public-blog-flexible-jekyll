@@ -76,38 +76,40 @@ layout: default
 	</div>
 </div>
 <footer class="main">
-	<div class="email">
-		<a href="mailto:info@klishgroup.com">info@KlishGroup.com</a>
-	</div>
-	<div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
-    </div>
-	<div class="icons">
-        {% if site.social-twitter %}
-          <a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-        {% else %}
-		
-        {% endif %}
-        <!--{% if site.social-facebook %}
-          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-        {% else %}
-          <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        {% endif %}
-		-->
-        {% if site.social-linkedin %}
-          <a href="https://in.linkedin.com/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-        {% else %}
-		
-        {% endif %}
-        {% if site.social-email %}
-          <a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o fa-2x"></i></a>
-		{% else %}
-		
-        {% endif %}
+	<div class="contents">
+		<div class="email">
+			<a href="mailto:info@klishgroup.com">info@KlishGroup.com</a>
+		</div>
+		<div class="copyright">
+		  <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+		</div>
+		<div class="icons">
+			{% if site.social-twitter %}
+			  <a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+			{% else %}
+			
+			{% endif %}
+			<!--{% if site.social-facebook %}
+			  <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			{% else %}
+			  <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			{% endif %}
+			{% if site.social-github %}
+			  <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+			{% else %}
+			  <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+			{% endif %}
+			-->
+			{% if site.social-linkedin %}
+			  <a href="https://in.linkedin.com/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+			{% else %}
+			
+			{% endif %}
+			{% if site.social-email %}
+			  <a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o fa-2x"></i></a>
+			{% else %}
+			
+			{% endif %}
+		</div>
 	</div>
 </footer>

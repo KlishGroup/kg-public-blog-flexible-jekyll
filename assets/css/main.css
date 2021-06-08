@@ -889,7 +889,7 @@ table tfoot td {
 }
 
 .post, .article-page {
-  background-color: #D5DEE8;
+  background-color: #ffffff;
 }
 
 ::-moz-selection {
@@ -975,7 +975,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #D5DEE8;
+  color: #ffffff;
   font-weight: initial;
 }
 
@@ -1023,7 +1023,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #D5DEE8;
+  color: #ffffff;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1488,7 +1488,7 @@ header.main {
     padding: 7px;
     background-color: #1B74B3;
     transition: padding 300ms ease;
-	border-bottom: solid 1px #D5DEE8;
+	border-bottom: solid 1px #ffffff;
 	z-index:9
 }
 
@@ -1510,7 +1510,7 @@ a.nav__link {
     font-family: 'Lalezar', sans-serif;
     font-size: 22px;
     text-transform: uppercase;
-    color: #D5DEE8;
+    color: #ffffff;
 	font-weight: initial;
 	text-decoration: none;
     padding-right: 20px;
@@ -1528,7 +1528,7 @@ a.nav__link:last-child {
     margin-top: 180px;
 	bottom:initial;
 	height:auto;
-	color: #D5DEE8;
+	color: #ffffff;
 }
 .sidebar h3 {
 	align-self: center;
@@ -1572,15 +1572,24 @@ footer.main {
     justify-content: space-between;
     width: 100%;
     padding: 5px;
-	color: #D5DEE8;
+	color: #ffffff;
     background-color: #1B74B3;
     transition: padding 300ms ease;
-	border-top: solid 1px #D5DEE8;
+	border-top: solid 1px #ffffff;
 	z-index:9
 }
 
 footer.sticky {
     padding: 10px 20px;
+}
+
+footer.main .contents{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	width: 100%;
+	max-width:1250px;
+	margin: 0 auto;
 }
 
 .icons {
@@ -1592,14 +1601,15 @@ footer.sticky {
 
 .icons a {
 	flex: auto;
-	color: #D5DEE8;
+	color: #ffffff;
+	text-align: right;
 }
 
 .email a{
 	font-family: 'Lalezar', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
-    color: #D5DEE8;
+    color: #ffffff;
 	font-weight: initial;
 	text-decoration:none;
 	margin-left: 20px;
@@ -1671,7 +1681,8 @@ body {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  background-color: #D5DEE8;
+  background-color: #ffffff;
+  font-weight: 600;
 }
 
 button.card {
