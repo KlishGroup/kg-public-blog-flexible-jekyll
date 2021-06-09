@@ -53,7 +53,6 @@ instructions in the README.txt file for installation details.
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png"/>
 <div style="text-align:center">SPAR of assets and Authoring Guide to download</div>
 
-Additional details can be found in the authoring guide.
 
 ## What’s Included in the SPAR?
 
@@ -135,37 +134,47 @@ been developed in XSL 2.0:
     based on the media size. It uses the OpenText Adaptive Media Images
     which can be transformed on the fly.  
 
-## Template – Blog Listing
 
+## Template – Blog Listing
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image4.png" style="width:6.32734in;height:5.58324in" />  
+</div>
 &nbsp;  
 
 ## Template – Blog Post
-
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image5.png" style="width:6.5in;height:5.34722in" />  
+</div>
 &nbsp;  
 
 ## Template – Modern Business
-
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image6.png" style="width:4.28945in;height:6.11583in" />
+</div>
 &nbsp;  
 
 ## Template – News Magazine
 
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image7.png" style="width:3.5805in;height:6.16661in" />
+</div>
 &nbsp;  
 
 ## Template – Dark Theme
 
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image8.png" style="width:3.06745in;height:6.13489in" />
+</div>
 &nbsp;  
 
 ## Template – Agency
-
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image9.png" style="width:3.86255in;height:6.03496in" />
+</div>
 &nbsp;  
 
 ## Template – Shop Homepage
-
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image9.png" style="width:3.86255in;height:6.03496in" />
+</div>
 &nbsp;  
