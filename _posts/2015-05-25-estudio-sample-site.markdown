@@ -6,6 +6,9 @@ description: Details on an Klish Group's Out Of the Box sample site native to Ex
 img: mac.jpg
 ---
 
+### Jumpstart your TeamSite Experience Studio build with pre-built Bootstrap and Foundation components and templates.  
+&nbsp;  
+
 ## Experience TeamSite’s New Interface, Experience Studio
 
 [OpenText’s
@@ -25,24 +28,32 @@ use!](https://v2e9r2n5.map2.ssl.hwcdn.net/vidad/sunnyside.vidavee.com/opentext/O
 In order to showcase the example uses of this interface, Klish Group has
 developed sample sites based on the Foundation (5 and 6) and Bootstrap
 (3 and 4) frameworks. These sites contain all the pieces required for a
-modernized content authoring experience. Each site includes:
+modernized content authoring experience. Each site includes sample:
 
--   Templates
+-   Page Templates
 -   Pages
--   Content Templates (to be used with individual components)
--   Components (boxes of content that make up a page)
-
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image1.png" style="width:2.3865in;height:5.98135in" />
+-   Content Templates
+-   Components 
+<p align="center">
+<figure>
+<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image1.png" />
+<figcaption>Sample Bootstrap Components for use in Experience Studio</figcaption>
+</figure>
+</p>
 
 ## Getting Hands On
 
-The SPAR (Site Publisher ARchive) file can be downloaded from this
-[page](https://knowledge.opentext.com/knowledge/llisapi.dll/open/69460803)
-in OpenText knowledge base. The project is named “TeamSite Add-Ons from
-Partners”, from there the SPAR can be downloaded. Follow the
+[The SPAR (Site Publisher ARchive) file can be downloaded](https://knowledge.opentext.com/knowledge/llisapi.dll/open/69460803)
+from the OpenText knowledge base. The project is named “TeamSite Add-Ons from
+Partners”.  Follow the
 instructions in the README.txt file for installation details.
 
+<p align="center">
+<figure>
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image2.png" style="width:6.95652in;height:4.59088in" />
+<figcaption>TeamSite Add-Ons from Partners download from the OpenText MySupport site</figcaption>
+</figure>
+</p>
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png" style="width:6.9105in;height:1.61395in" />
 

@@ -46,7 +46,7 @@ Use these services when:
 &nbsp; 
 ### Option 2:  Human Translation with Translation Memory
 
-Translation vendors like Lionbridge, RWS, and  Translations.com provide translation services that are ulitmately backed by regional, local human translators.  These platforms typically charge by the word, but other enterprise packages are available.  The translation experts are supported by technology like Translation Memory to help speed up the translation process and reduce the cost by not charging for the same words or phrases over and over again.
+Translation vendors like Lionbridge, RWS, and  Translations.com provide translation services that are ulitmately backed by regional, local human translators.  These platforms typically charge by the word, but other enterprise pricing packages are available.  The translation experts are supported by technology like Translation Memory to help speed up the translation process and reduce the cost by not charging for the same words or phrases over and over again.
 
 Human-backed translation improves on Machine Translation for:
 
