@@ -45,14 +45,13 @@ from the OpenText knowledge base. The project is named “TeamSite Add-Ons from
 Partners”.  Follow the
 instructions in the README.txt file for installation details.
 
-<p>
-<figure>
+
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image2.png"/>
-<figcaption>TeamSite Add-Ons from Partners download from the OpenText MySupport site</figcaption>
-</figure>
-</p>
+<div style="text-align:center">TeamSite Add-Ons from Partners project from the OpenText MySupport site</div>
+
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png"/>
+<div style="text-align:center">SPAR of assets and Authoring Guide to download</div>
 
 Additional details can be found in the authoring guide.
 
@@ -134,32 +133,39 @@ been developed in XSL 2.0:
 
 -   Adaptive Image Hero - This component loads a different sized image
     based on the media size. It uses the OpenText Adaptive Media Images
-    which can be transformed on the fly.
+    which can be transformed on the fly.  
 
 ## Template – Blog Listing
 
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image4.png" style="width:6.32734in;height:5.58324in" />
+<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image4.png" style="width:6.32734in;height:5.58324in" />  
+&nbsp;  
 
 ## Template – Blog Post
 
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image5.png" style="width:6.5in;height:5.34722in" />
+<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image5.png" style="width:6.5in;height:5.34722in" />  
+&nbsp;  
 
 ## Template – Modern Business
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image6.png" style="width:4.28945in;height:6.11583in" />
+&nbsp;  
 
 ## Template – News Magazine
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image7.png" style="width:3.5805in;height:6.16661in" />
+&nbsp;  
 
 ## Template – Dark Theme
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image8.png" style="width:3.06745in;height:6.13489in" />
+&nbsp;  
 
 ## Template – Agency
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image9.png" style="width:3.86255in;height:6.03496in" />
+&nbsp;  
 
 ## Template – Shop Homepage
 
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image9.png" style="width:3.86255in;height:6.03496in" />
+&nbsp;  
