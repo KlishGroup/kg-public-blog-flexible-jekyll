@@ -34,12 +34,9 @@ modernized content authoring experience. Each site includes sample:
 -   Pages
 -   Content Templates
 -   Components 
-<p align="center">
-<figure>
+
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image1.png" />
-<figcaption>Sample Bootstrap Components for use in Experience Studio</figcaption>
-</figure>
-</p>
+<div style="text-align:center">Sample Bootstrap Components for use in Experience Studio</div>
 
 ## Getting Hands On
 
@@ -48,14 +45,14 @@ from the OpenText knowledge base. The project is named “TeamSite Add-Ons from
 Partners”.  Follow the
 instructions in the README.txt file for installation details.
 
-<p align="center">
+<p>
 <figure>
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image2.png" style="width:6.95652in;height:4.59088in" />
+<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image2.png"/>
 <figcaption>TeamSite Add-Ons from Partners download from the OpenText MySupport site</figcaption>
 </figure>
 </p>
 
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png" style="width:6.9105in;height:1.61395in" />
+<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png"/>
 
 Additional details can be found in the authoring guide.
 
