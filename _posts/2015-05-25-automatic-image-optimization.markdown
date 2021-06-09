@@ -21,20 +21,22 @@ responsive frameworks this scale is balanced by creating an image tag
 with multiple sources, and leaving it up to the browser to pick the
 right source at runtime.
 
-> &lt;img srcset="example-480w.jpg 480w,
-> 
-> example-800w.jpg 800w"
-> 
-> sizes="(max-width: 600px) 480px,
-> 
-> 800px"
-> 
-> src="example-800w.jpg"&gt;
+```html
+<img srcset="example-480w.jpg 480w,
+ 
+ example-800w.jpg 800w"
+ 
+ sizes="(max-width: 600px) 480px,
+ 
+ 800px"
+ 
+ src="example-800w.jpg">
+ ```
 
-The above bootstrap example will return a 480px or 800px version of the
+> The above bootstrap example will return a 480px or 800px version of the
 image depending on the viewport size. In order to make this happen,
-there must exist images cut to these particular proportions available in
-advance. A task which falls in the laps of most content authors when it
+images must be manually sized to particular proportions available in
+advance. A task which often falls to content authors when it
 comes to adding images to their articles.
 
 ## Providing the Best Experience
