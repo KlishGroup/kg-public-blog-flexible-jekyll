@@ -62,83 +62,81 @@ guidelines are adhered to.
     buttons for screen readers (can also use “aria-label” to accomplish
     the same task, more below)
 
-> Example:
->
-> &lt;a href="\#" &gt;Donate Now &lt;span class="visually-hidden"&gt;to
-> the American Red Cross Relief Fund.&lt;/span&gt;&lt;/a&gt;
+	> Example:
+	>
+	> &lt;a href="\#" &gt;Donate Now &lt;span class="visually-hidden"&gt;to
+	> the American Red Cross Relief Fund.&lt;/span&gt;&lt;/a&gt;
 
 2.  Human-readable custom ID fields for tables and complex web elements.
 
-> &lt;table class=**"location-comparison-chart\_\_table
-> data-table"**&gt;
->
-> **   ** &lt;caption&gt;
->
-> **       ** &lt;span class=**"visually-hidden"**&gt;**This is the
-> summary for this data table! This is typically visually
-> hidden.**&lt;/span&gt;
->
-> **   ** &lt;/caption&gt;
->
-> **   ** &lt;tr&gt;
->
-> **       ** &lt;td&gt;*&nbsp;*&lt;/td&gt;
->
-> **       ** &lt;th scope=**"col"** id=**"hospital-location-table"**
-> class=**” locations-table"**&gt;
->
-> **           ** &lt;span class=**"visually-hidden"**&gt;**Current
-> Location:**&lt;/span&gt; **North Hospital Location**&lt;/th&gt;
->
-> **       ** &lt;th scope=**"col"** id=**"south-hospital"**&gt; **South
-> Hospital Location**&lt;/th&gt;
->
-> **       ** &lt;th scope=**"col"** id=**"east-hospital"**&gt;**East
-> Hospital Location**&lt;/th&gt;
->
-> **   ** &lt;/tr&gt;
->
-> **   ...**
->
-> &lt;/table&gt;
+	> &lt;table class=**"location-comparison-chart\_\_table
+	> data-table"**&gt;
+	>
+	> **   ** &lt;caption&gt;
+	>
+	> **       ** &lt;span class=**"visually-hidden"**&gt;**This is the
+	> summary for this data table! This is typically visually
+	> hidden.**&lt;/span&gt;
+	>
+	> **   ** &lt;/caption&gt;
+	>
+	> **   ** &lt;tr&gt;
+	>
+	> **       ** &lt;td&gt;*&nbsp;*&lt;/td&gt;
+	>
+	> **       ** &lt;th scope=**"col"** id=**"hospital-location-table"**
+	> class=**” locations-table"**&gt;
+	>
+	> **           ** &lt;span class=**"visually-hidden"**&gt;**Current
+	> Location:**&lt;/span&gt; **North Hospital Location**&lt;/th&gt;
+	>
+	> **       ** &lt;th scope=**"col"** id=**"south-hospital"**&gt; **South
+	> Hospital Location**&lt;/th&gt;
+	>
+	> **       ** &lt;th scope=**"col"** id=**"east-hospital"**&gt;**East
+	> Hospital Location**&lt;/th&gt;
+	>
+	> **   ** &lt;/tr&gt;
+	>
+	> **   ...**
+	>
+	> &lt;/table&gt;
 
 3.  Providing “alt” text for all image tags. Adding the alt attribute
     addresses a handful of cases:
 
-<!-- -->
+	*  ALT tags can be used for keyword identification related to the
+		image, which can be leveraged by search engines.
 
-*  ALT tags can be used for keyword identification related to the
-    image, which can be leveraged by search engines.
+	*  If an image cannot be displayed for some reason the ALT text will
+		replace the image, giving the user an idea of what should be
+		shown. These tags can also contain links to other pages/image to
+		provide additional information
 
-*  If an image cannot be displayed for some reason the ALT text will
-    replace the image, giving the user an idea of what should be
-    shown. These tags can also contain links to other pages/image to
-    provide additional information
+	*  ALT tags provide a text alternative of the image for users on screen
+		readers.
 
-*  ALT tags provide a text alternative of the image for users on screen
-    readers.
-
-> Example:
->
-> &lt;img src="img\_girl.jpg" alt="Girl in a jacket"&gt;
+		> Example:
+		>
+		> &lt;img src="img\_girl.jpg" alt="Girl in a jacket"&gt;
 
 4.  Using the Accessible Rich Internet Applications (ARIA) for providing
     extra context
 
-&lt;nav aria-describedby=**"utility-nav-title"** role=**"navigation"**
-class=**"utility-nav"**&gt;
+	> &lt;nav aria-describedby=**"utility-nav-title"** role=**"navigation"**
+	> class=**"utility-nav"**&gt;
 
-In this case “role” is defining that this is a navigation-specific
-element and “aria-describedby” contains a descriptive name to identify
-this as a navigation bar for Utility links.
+	In this case “role” is defining that this is a navigation-specific
+	element and “aria-describedby” contains a descriptive name to identify
+	this as a navigation bar for Utility links.
 
 5.  Using “Skip Navigation” links to allow screen reader users to bypass
     large blocks of navigation content
 
-Example:
+	Example:
 
-> &lt;div href=**"\#skipContent"** class=**"visually-hidden"**
-> id=**"sidebar-navigation-title"**&gt;**Skip navigation**&lt;/div&gt;
+	> &lt;div href=**"\#skipContent"** class=**"visually-hidden"**
+	> id=**"sidebar-navigation-title"**&gt;**Skip navigation**&lt;/div&gt;
 
 6.  Placing Navigation elements as close to the top of the DOM structure
     as possible aids with skipping sections of navigation. Otherwise by
