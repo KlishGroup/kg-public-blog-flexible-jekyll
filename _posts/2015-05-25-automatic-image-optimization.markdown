@@ -5,6 +5,9 @@ date: 2021-05-20 13:32:20 +0300
 img: pexels-tranmautritam-326508.jpg
 ---	
 
+### Use Cloudinary to automatically optimize images and dramatically improve the performance of your website
+&nbsp; 
+
 ## Summary
 
 As the growing trend of websites being viewed on handheld devices
