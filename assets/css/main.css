@@ -1571,11 +1571,11 @@ footer.main {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 5px;
+    /*padding: 5px;*/
 	color: #ffffff;
     background-color: #1B74B3;
     transition: padding 300ms ease;
-	border-top: solid 1px #ffffff;
+	/*border-top: solid 1px #ffffff;*/
 	z-index:9
 }
 
