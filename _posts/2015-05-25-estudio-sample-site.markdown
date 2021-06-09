@@ -51,6 +51,8 @@ instructions in the README.txt file for installation details.
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image2.png"/>
 </div>
 <div style="text-align:center">TeamSite Add-Ons from Partners project from the OpenText MySupport site</div>
+&nbsp;  
+
 
 <div style="text-align:center">
 <img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png"/>
@@ -96,28 +98,28 @@ with templates for:
 Pages can be created utilizing the following components, which have all
 been developed in XSL 2.0:
 
--   Header - Sticky Header component on the page which uses the External
+-   Header - Sticky Header uses the External
     class:com.interwoven.livesite.external.impl.LivesiteSiteMap to read
     the default.sitemap to display navigation links in top nav. It uses 
 	the "Navigation/HeaderDCR to load labels or images in the header.
 
--   Hero - Single image component with Title, Body and CTA button. The
+-   Hero - Single image with Title, Body and CTA button. The
     text content can be aligned - Left, Center and Right
 
--   Breadcrumb - This component shows the breadcrumbs of the page the
+-   Breadcrumb - Shows the breadcrumbs of the page the
     user is on. It reads the links from default.sitemap using the
     Component External.
 
--   Simple Content - Simple component to display Title, Date, Body and
+-   Simple Content - Displays Title, Date, Body and
     CTA.
 
--   Video - This component displays the responsive Youtube or Vimeo
+-   Video - Responsive Youtube or Vimeo
     video using the Video ID.
 
--   Footer - Sticky Footer component on the page uses DCR to display the
+-   Footer - Sticky Footer uses DCR to display the
     links in the footer.
 
--   Carousel - This component uses DCR to display images with Title,
+-   Carousel - Content Items used to display images with Title,
     Body and CTA Button.
 
 -   Card - This component uses DCR to display cards horizontally in a

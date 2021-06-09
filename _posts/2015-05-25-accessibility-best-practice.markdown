@@ -5,11 +5,14 @@ date: 2021-05-20 13:32:20 +0300
 img: pexels-andrew-neel-4134784.jpg
 ---
 
+### Tips and Tricks for implementing Web Content Accessibility Guidelines (WCAG)  
+&nbsp;  
+
 ## Summary
 
 As the websites, and the digital services they provide, reach more
 devices and users each year it’s imperative to focus on making the web
-as accessible to all users. The [Center for Disease
+accessible to all users. The [Center for Disease
 Control](https://www.cdc.gov/media/releases/2018/p0816-disability.html)
 places disabilities among Americans at 1 in 4, with an estimated 1.3
 billion people internationally that suffer from visual impairments. For
@@ -47,7 +50,7 @@ navigation:
 > **AA**: Any keyboard operable user interface has a mode of operation where
 > the keyboard focus indicator is visible.
 >
-> **AAA**: All Functionality for content is operable through the keyboard
+> **AAA**: All functionality for content is operable through the keyboard
 
 ## Klish Best Practices 
 
@@ -142,3 +145,11 @@ guidelines are adhered to.
     as possible aids with skipping sections of navigation. Otherwise by
     providing the above “skip navigation” button you risk skipping vital
     page content, like article titles.
+
+
+7.  Use tools to validate compliance:
+
+	**[Color Contrast Application](https://www.tpgi.com/color-contrast-checker/)** - this can even be used during Design to test in PDFs or Figma.
+
+	**[Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/djcglbmbegflehmbfleechkjhmedcopn?hl=en)**
+
