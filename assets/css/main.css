@@ -1723,6 +1723,10 @@ button.card:hover {
 blockquote {
 	color: #000000;
 }
+
+.g-recaptcha{
+	display:none;
+}
 	
 
 @media screen and (max-width: 800px) {
