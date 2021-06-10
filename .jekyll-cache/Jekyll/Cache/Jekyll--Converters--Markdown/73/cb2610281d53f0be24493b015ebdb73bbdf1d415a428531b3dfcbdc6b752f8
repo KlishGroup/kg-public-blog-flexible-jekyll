@@ -1,0 +1,176 @@
+I"�<h3 id="integrate-the-translation-process-directly-into-the-authoring-workflow-of-your-content-management-system">Integrate the translation process directly into the authoring workflow of your Content Management System.</h3>
+<p> </p>
+
+<h2 id="why-translate-your-site">Why Translate your Site?</h2>
+
+<p>In an increasingly globalized world, fast and accurate content
+translation is more important than ever. Consider localizing content to:</p>
+
+<ul>
+  <li>
+    <p><strong>Improve Trust:</strong> Localization decreases communication errors and creates a relationship with the audience.</p>
+  </li>
+  <li>
+    <p><strong>Enhance SEO:</strong> Localized content is full of SEO-rich keywords that improve discovery when users search in their preferred languages.</p>
+  </li>
+  <li>
+    <p><strong>Compliance:</strong> Some local laws require website content to be available in multiple languages. For instance consumer sites in Canada must provide both English and French versions of content.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>In a survey by Common Sense Advisory, <strong>56 percent of consumers say that having product information available in their native language is more important than price when making a decision.</strong></p>
+</blockquote>
+
+<p> </p>
+<h2 id="picking-the-right-translation-service">Picking the Right Translation Service</h2>
+
+<h3 id="option-1--machine-translation">Option 1:  Machine Translation</h3>
+<p>Artificial Intelligence backed translation platforms like Google Translate, iTranslate and others are a fast and low cost option.</p>
+
+<p>Use these services when:</p>
+
+<ul>
+  <li>
+    <p>Quick turnaround time is a priority</p>
+  </li>
+  <li>
+    <p>A “fair approximation” of the text is all that is required; an exact
+translation is not needed.</p>
+  </li>
+  <li>
+    <p>Low Cost option</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Choose Machine translation for general copy on your website, blog or newsletter.</strong></p>
+</blockquote>
+
+<p> </p>
+<h3 id="option-2--human-translation-with-translation-memory">Option 2:  Human Translation with Translation Memory</h3>
+
+<p>Translation vendors like Lionbridge, RWS, and  Translations.com provide translation services that are ulitmately backed by regional, local human translators.  These platforms typically charge by the word, but other enterprise pricing packages are available.  The translation experts are supported by technology like Translation Memory to help speed up the translation process and reduce the cost by not charging for the same words or phrases over and over again.</p>
+
+<p>Human-backed translation improves on Machine Translation for:</p>
+
+<ul>
+  <li>
+    <p>Technical writing like Safety Data Sheets</p>
+  </li>
+  <li>
+    <p>Consistent tone and style</p>
+  </li>
+  <li>
+    <p>Context and understanding cultural references</p>
+  </li>
+  <li>
+    <p>Authors occasionally break grammatical rules in the name of
+creativity</p>
+
+    <ul>
+      <li>E.g. “We Don’t Need No Education!” by Pink Floyd</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Choose human-backed translation when you have technical writing requirements or are looking for a more consistent, culturally accurate tone across your site.</strong></p>
+</blockquote>
+
+<p>Further Reading: <a href="https://www.lptranslations.com/blog/how-accurate-is-google-translate/">How Accurate is Google
+Translate?</a></p>
+
+<h2 id="structuring-your-translated-content-in-teamsite">Structuring Your Translated Content in TeamSite</h2>
+
+<p>There are several options for the folder structure of pages, content items, and the URL impacts of different setups.</p>
+
+<h3 id="example-1-single-site-structure">Example 1: Single Site Structure</h3>
+
+<p>This is a case where the site’s structure is identical in all
+localized renditions of the site. One way to accomplish this is to build a single page but
+have the site query for different translated content items to each page individually based on the language code in the URL.</p>
+
+<p><img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image2.png" alt="One Page Uses Various Content Based On Localization" /></p>
+
+<h3 id="example-2-independent-localized-sites">Example 2: Independent Localized Sites</h3>
+
+<p>There are times when it isn’t necessary to have the entire site
+structure available in each locale, but instead have a subset of pages
+that are tailed for a particular language. This is popular on sites that
+want to appeal to an international audience without requiring a full
+site buildout or redesign. In this case the amount of translated content
+per locale can be easily controlled.</p>
+
+<p><img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image3.png" alt="Different Sites Per Localization" /></p>
+
+<h2 id="translating-content-with-fluint">Translating Content with Fluint</h2>
+
+<p>Fluint is an out of the box connector module, built by Klish Group,
+which integrates TeamSite with leading Translation Providers to allow
+simple, continuous translation of web content.​</p>
+
+<p>By using a collection of TeamSite Workflow Processes that guide the
+translation process within the CMS, Fluint enables content
+submission and retrieval within TeamSite platform.​</p>
+
+<blockquote>
+  <p><strong>The Fluint Translation Connector can integrate both Machine and Human-backed translation providers to TeamSite via the content authoring workflow process.</strong></p>
+</blockquote>
+
+<h2 id="fluints-capabilities">Fluint’s Capabilities</h2>
+
+<p>Fluint facilitates native connectivity to translation partners in order
+to:</p>
+
+<ul>
+  <li>
+    <p>Translate SitePublisher Sites​</p>
+  </li>
+  <li>
+    <p>Translate Experience Studio Sites</p>
+  </li>
+  <li>
+    <p>Track Translation Progress within TeamSite​ via a Dashboard</p>
+  </li>
+  <li>
+    <p>Translate Extended Attribute Metadata​</p>
+  </li>
+  <li>
+    <p>Smart Filtering of User Preferences by branch or site</p>
+  </li>
+  <li>
+    <p>Quote Translation​</p>
+  </li>
+  <li>
+    <p>Automatic or Manual Configuration of Projects​</p>
+  </li>
+</ul>
+
+<p> <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image4.jpeg" alt="Example Fluint Settings in Forms Publisher" /></p>
+
+<p>Manage Fluint Settings in the TeamSite UI</p>
+
+<p><img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image5.jpeg" alt="Fluint Custom TeamSite Tab" /></p>
+
+<p>Manage Translations via a custom Translation Dashboard</p>
+
+<p> <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image6.jpeg" alt="Fluint Custom Dashboard" /></p>
+
+<p>Compatible with TeamSite Globalized Content Management Module and its Monitor Localizations dashboard functionality</p>
+
+<h2 id="installation-is-fast-and-simple">Installation is Fast and Simple</h2>
+
+<ul>
+  <li>
+    <p>Can be installed and sending content in less than a day​</p>
+  </li>
+  <li>
+    <p>Only requires a small database, no additional infrastructure</p>
+  </li>
+  <li>
+    <p>No Firewall configurations are required since all requests are
+initiated from TeamSite</p>
+  </li>
+</ul>
+:ET

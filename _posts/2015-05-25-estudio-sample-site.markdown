@@ -36,7 +36,7 @@ modernized content authoring experience. Each site includes sample:
 -   Components 
 
 <div style="text-align:center">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image1.png" alt="Sample Components" />
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image1.png" alt="Sample Components" />
 </div>
 <div style="text-align:center">Sample Bootstrap Components for use in Experience Studio</div>
 
@@ -48,14 +48,14 @@ Partners”.  Follow the
 instructions in the README.txt file for installation details.
 
 <div style="text-align:center">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image2.png" alt="TeamSite Add-Ons" />
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image2.png" alt="TeamSite Add-Ons" />
 </div>
 <div style="text-align:center">TeamSite Add-Ons from Partners project from the OpenText MySupport site</div>
 &nbsp;  
 
 
 <div style="text-align:center">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image3.png" alt="Downloadable Assets Available on OpenText Knowledge Base" />
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image3.png" alt="Downloadable Assets Available on OpenText Knowledge Base" />
 </div>
 <div style="text-align:center">SPAR of assets and Authoring Guide to download</div>
 
@@ -143,44 +143,44 @@ been developed in XSL 2.0:
 
 ## Template – Blog Listing
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image4.png"  alt="Blog Listing Template"/>  
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image4.png"  alt="Blog Listing Template"/>  
 </div>
 &nbsp;  
 
 ## Template – Blog Post
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image5.png" alt="Blog Post Template"/>  
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image5.png" alt="Blog Post Template"/>  
 </div>
 &nbsp;  
 
 ## Template – Modern Business
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image6.png" alt="Modern Business Template"/>
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image6.png" alt="Modern Business Template"/>
 </div>
 &nbsp;  
 
 ## Template – News Magazine
 
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image7.png" alt="News Magazine Template"/>
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image7.png" alt="News Magazine Template"/>
 </div>
 &nbsp;  
 
 ## Template – Dark Theme
 
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image8.png" alt="Dark Theme Template"/>
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image8.png" alt="Dark Theme Template"/>
 </div>
 &nbsp;  
 
 ## Template – Agency
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image9.png" alt="Agency Template"/>
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image9.png" alt="Agency Template"/>
 </div>
 &nbsp;  
 
 ## Template – Shop Homepage
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/assets/img/docs/public/estudio-sample-site/image9.png" alt="Shop Homepage Template"/>
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image9.png" alt="Shop Homepage Template"/>
 </div>
 &nbsp;  

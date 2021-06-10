@@ -77,7 +77,7 @@ This is a case where the site’s structure is identical in all
 localized renditions of the site. One way to accomplish this is to build a single page but
 have the site query for different translated content items to each page individually based on the language code in the URL.
 
-<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image2.png" alt="One Page Uses Various Content Based On Localization" />
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image2.png" alt="One Page Uses Various Content Based On Localization" />
 
 ### Example 2: Independent Localized Sites
 
@@ -88,7 +88,7 @@ want to appeal to an international audience without requiring a full
 site buildout or redesign. In this case the amount of translated content
 per locale can be easily controlled.
 
-<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image3.png" alt="Different Sites Per Localization" />
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image3.png" alt="Different Sites Per Localization" />
 
 
 ## Translating Content with Fluint
@@ -122,15 +122,15 @@ to:
 
 -   Automatic or Manual Configuration of Projects​
 
- <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image4.jpeg" alt="Example Fluint Settings in Forms Publisher" style="width:200px" />
+ <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image4.jpeg" alt="Example Fluint Settings in Forms Publisher" />
 
 Manage Fluint Settings in the TeamSite UI
 
-<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image5.jpeg" alt="Fluint Custom TeamSite Tab" style="width:600px"/>
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image5.jpeg" alt="Fluint Custom TeamSite Tab" />
 
 Manage Translations via a custom Translation Dashboard
 
- <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image6.jpeg" alt="Fluint Custom Dashboard" style="width:600px" />
+ <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image6.jpeg" alt="Fluint Custom Dashboard" />
 
 Compatible with TeamSite Globalized Content Management Module and its Monitor Localizations dashboard functionality
 

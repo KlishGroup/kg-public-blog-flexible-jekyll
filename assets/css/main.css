@@ -1565,7 +1565,7 @@ a.nav__link:last-child {
 }
 
 footer.main {
-    /*position: fixed;*/
+    position: inherit;
     bottom: 0px;
     display: flex;
     align-items: center;
@@ -1724,11 +1724,15 @@ blockquote {
 	color: #000000;
 }
 
-.g-recaptcha{
+.g-recaptcha, .ctct-form-footer{
 	display:none;
 }
-	
 
+@media screen and (max-width: 1000px) {	
+	.content-box {
+		margin-top: 50px;
+	}
+}
 @media screen and (max-width: 800px) {
 	.clients {
 		display:none;

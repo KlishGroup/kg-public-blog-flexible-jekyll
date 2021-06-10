@@ -4,7 +4,7 @@ layout: main
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}" alt="{{post.title}}" role="button"></a>
+    <a class="post-thumbnail" style="background-image: url({{ "https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_300/web/blog/images/hero-images/" | append : post.img}})" href="{{post.url | prepend: site.baseurl}}" alt="{{post.title}}" role="button"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
