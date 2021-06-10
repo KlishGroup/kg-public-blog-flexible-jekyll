@@ -9,8 +9,8 @@ layout: default
 			<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
 		  </div>
 		</div>
-		<nav>
-			<a class="nav__link" href="https://www.klishgroup.com" target="_blank">KlishGroup.com</a>
+		<nav aria-describedby="kish-group-nav" role="navigation">
+			<a class="nav__link" id="kish-group-nav" href="https://www.klishgroup.com" target="_blank">KlishGroup.com</a>
 		</nav>
 	</div>
  </header> <!-- End Header -->
@@ -76,14 +76,14 @@ layout: default
 <footer class="main">
 	<div class="contents">
 		<div class="email">
-			<a href="mailto:info@klishgroup.com">info@KlishGroup.com</a>
+			<a href="mailto:info@klishgroup.com" role="button" alt="Klish Group Email" >info@KlishGroup.com</a>
 		</div>
 		<div class="copyright">
 		  <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
 		</div>
 		<div class="icons">
 			{% if site.social-twitter %}
-			  <a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+			  <a href="https://twitter.com/{{ site.social-twitter }}" title="Twitter" target="_blank" role="button"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 			{% else %}
 			
 			{% endif %}
@@ -99,12 +99,12 @@ layout: default
 			{% endif %}
 			-->
 			{% if site.social-linkedin %}
-			  <a href="https://in.linkedin.com/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+			  <a href="https://in.linkedin.com/{{site.social-linkedin}}" title="Linkedin" target="_blank" role="button"><i class="fa fa-linkedin fa-2x"></i></a>
 			{% else %}
 			
 			{% endif %}
 			{% if site.social-email %}
-			  <a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o fa-2x"></i></a>
+			  <a href="mailto:{{site.social-email}}" title="Klish Group Email" role="button"><i class="fa fa-envelope-o fa-2x"></i></a>
 			{% else %}
 			
 			{% endif %}

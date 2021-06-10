@@ -77,7 +77,7 @@ This is a case where the site’s structure is identical in all
 localized renditions of the site. One way to accomplish this is to build a single page but
 have the site query for different translated content items to each page individually based on the language code in the URL.
 
-<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image2.png" style="width:6.5in;height:2.71875in" alt="Diagram Description automatically generated" />
+<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image2.png" alt="One Page Uses Various Content Based On Localization" />
 
 ### Example 2: Independent Localized Sites
 
@@ -88,7 +88,7 @@ want to appeal to an international audience without requiring a full
 site buildout or redesign. In this case the amount of translated content
 per locale can be easily controlled.
 
-<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image3.png" style="width:6.5in;height:1.80278in" alt="Diagram Description automatically generated" />
+<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image3.png" alt="Different Sites Per Localization" />
 
 
 ## Translating Content with Fluint
@@ -122,15 +122,15 @@ to:
 
 -   Automatic or Manual Configuration of Projects​
 
- <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image4.jpeg" style="width:3.12153in;height:3.33056in" />
+ <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image4.jpeg" alt="Example Fluint Settings in Forms Publisher" style="width:200px" />
 
 Manage Fluint Settings in the TeamSite UI
 
-<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image5.jpeg" style="width:6.5in;height:1.23056in" />
+<img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image5.jpeg" alt="Fluint Custom TeamSite Tab" style="width:600px"/>
 
 Manage Translations via a custom Translation Dashboard
 
- <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image6.jpeg" style="width:6.5in;height:1.70556in" />
+ <img src="{{site.baseurl}}/assets/img/docs/public/language-translation-with-fluint/image6.jpeg" alt="Fluint Custom Dashboard" style="width:600px" />
 
 Compatible with TeamSite Globalized Content Management Module and its Monitor Localizations dashboard functionality
 
