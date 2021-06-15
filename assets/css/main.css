@@ -844,7 +844,7 @@ table tbody td {
 }
 
 table tr:nth-child(even) {
-  background: #adbecc;
+  background: #ffffff;
 }
 
 table thead {
@@ -1197,6 +1197,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+  padding-bottom: 0px;
 }
 
 .header-page {
@@ -1523,6 +1524,7 @@ a.nav__link:last-child {
 .content-box {
     margin-top: 130px;
 	margin-bottom: 80px;
+	order: 1;
 }
 .sidebar {
     margin-top: 130px;
@@ -1633,6 +1635,9 @@ footer.main .contents{
 .body-content {
 	max-width:1250px;
 	margin: 0 auto;
+	
+	display: flex;
+	flex-direction: column;
 }
 .body-content .sidebar{
 	left:initial;
@@ -1643,6 +1648,7 @@ body {
 .sidebar {
 	background-color:#eef0f1;
 	color: #042B69;
+	order: 2
 }
 .header-page .page-date {
 	color: #042B69;
@@ -1724,17 +1730,73 @@ blockquote {
 	color: #000000;
 }
 
+.back-button{
+	color: rgb(4, 43, 105);
+	display: block;
+	font-family: Lato, sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 10px 0px 10px 20px;
+	
+}
+
 .g-recaptcha, .ctct-form-footer{
 	display:none;
 }
 
+table {
+	width:initial;
+}
+
+table thead tr th{
+	padding-left: 10px;
+	color: #042B69;
+}
+table tbody tr td{
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+.page-title-mobile{
+	display: none;
+}
+.page-title-desktop{
+	display: block;
+}
+
+.article-page{
+		width:100%;
+		overflow:auto;
+		word-break: break-word;
+	}
+
 @media screen and (max-width: 1000px) {	
 	.content-box {
 		margin-top: 50px;
+		margin-bottom: 0px;
 	}
 }
 @media screen and (max-width: 800px) {
 	.clients {
 		display:none;
+	}
+	.sidebar{
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.page-title-mobile{
+		display: block;
+		padding: 20px;
+	    text-align: center;	
+	}
+	.page-title-desktop{
+		display: none;
 	}
 }

@@ -1,0 +1,216 @@
+I""<h3 id="jumpstart-your-teamsite-experience-studio-build-with-pre-built-bootstrap-and-foundation-components-and-templates">Jumpstart your TeamSite Experience Studio build with pre-built Bootstrap and Foundation components and templates.</h3>
+<p> </p>
+
+<h2 id="experience-teamsites-new-interface-experience-studio">Experience TeamSite’s New Interface, Experience Studio</h2>
+
+<p><a href="https://www.opentext.com/products-and-solutions/products/customer-experience-management/web-content-management/opentext-teamsite">OpenText’s
+TeamSite</a>
+comes out of the box with Experience Studio, the easy-to-use authoring
+interface which speeds up the create-to-publish cycle with tools to
+easily import HTML designs, WYSIWYG editing, drag and drop forms and
+components, edit, preview and publish single page applications (SPAs)
+and integrated content search capabilities allowing organizations to
+“create once, publish anywhere.”</p>
+
+<p><a href="https://v2e9r2n5.map2.ssl.hwcdn.net/vidad/sunnyside.vidavee.com/opentext/OTUnrestricted/A7C49BEA1DCF55A2C357339A6E13E754.mp4">See a sample of the interface in
+use!</a></p>
+
+<h2 id="seeing-is-believing">Seeing Is Believing</h2>
+
+<p>In order to showcase the example uses of this interface, Klish Group has
+developed sample sites based on the Foundation (versions 5 and 6) and Bootstrap
+(versions 3 and 4) frameworks. These sites contain all the pieces required for a
+modernized content authoring experience. Each site includes sample:</p>
+
+<ul>
+  <li>Page Templates</li>
+  <li>Pages</li>
+  <li>Content Templates</li>
+  <li>Components</li>
+</ul>
+
+<div style="text-align:center">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image1.png" alt="Sample Components" />
+</div>
+<div style="text-align:center">Sample Bootstrap Components for use in Experience Studio</div>
+
+<h2 id="getting-hands-on">Getting Hands On</h2>
+
+<p><a href="https://knowledge.opentext.com/knowledge/llisapi.dll/open/69460803">The SPAR (Site Publisher ARchive) file can be downloaded</a>
+from the OpenText knowledge base. The project is named “TeamSite Add-Ons from
+Partners”.  Follow the
+instructions in the README.txt file for installation details.</p>
+
+<div style="text-align:center">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image2.png" alt="TeamSite Add-Ons" />
+</div>
+<div style="text-align:center">TeamSite Add-Ons from Partners project from the OpenText MySupport site</div>
+<p> </p>
+
+<!--<div style="text-align:center">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image3.png" alt="Downloadable Assets Available on OpenText Knowledge Base" />
+</div>
+<div style="text-align:center">SPAR of assets and Authoring Guide to download</div>-->
+
+<p>That project contains an Authoring Guide, SPAR file, and README.</p>
+
+<p><a href="https://res.cloudinary.com/klish-group/raw/upload/v1623777079/web/blog/documents/Experience_Studio_Components_Authoring_Guide.pptx">Click Here</a> to take a look at the authoring guide for more details.</p>
+
+<h2 id="whats-included-in-the-spar">What’s Included in the SPAR?</h2>
+
+<p>The SPAR contains all four sites (Foundation 5/6, Bootstrap 3/4) each
+with templates for:</p>
+
+<ul>
+  <li>Bootstrap:
+    <ul>
+      <li>Modern Business</li>
+      <li>Shop HomePage</li>
+      <li>Dark</li>
+      <li>Basic</li>
+      <li>Blog Listing</li>
+      <li>Blog Post</li>
+    </ul>
+  </li>
+  <li>Foundation:
+    <ul>
+      <li>News-Magazine</li>
+      <li>Agency</li>
+      <li>Dark</li>
+      <li>Basic</li>
+      <li>Blog Listing</li>
+      <li>Blog Post</li>
+    </ul>
+  </li>
+  <li>Bootstrap 4
+    <ul>
+      <li>Modern Business</li>
+      <li>Shop HomePage</li>
+      <li>Basic</li>
+      <li>Blog Listing</li>
+      <li>Blog Post</li>
+    </ul>
+  </li>
+  <li>Foundation 6:
+    <ul>
+      <li>News-Magazine</li>
+      <li>Agency</li>
+      <li>Basic</li>
+      <li>Blog Listing</li>
+      <li>Blog Post</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The SPAR contains four sites: Bootstrap, Bootstrap 4, Foundation, and Foundation 6. They utilize the following templates:</p>
+<ul>
+  <li>Modern Business</li>
+  <li>Shop HomePage</li>
+  <li>Dark</li>
+  <li>Basic</li>
+  <li><a href="#template-blog-listing">Blog Listing</a></li>
+  <li>Blog Post</li>
+</ul>
+
+<p>Pages can be created utilizing the following components, which have all
+been developed in XSL 2.0:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Sticky Header uses the External class:com.interwoven.livesite.external.impl.LivesiteSiteMap to read the default.sitemap to display navigation links in top nav. It uses the "Navigation/HeaderDCR to load labels or images in the header.</td>
+    </tr>
+    <tr>
+      <td>Hero</td>
+      <td>Single image with Title, Body and CTA button. The text content can be aligned - Left, Center and Right</td>
+    </tr>
+    <tr>
+      <td>Breadcrumb</td>
+      <td>Shows the breadcrumbs of the page the user is on. It reads the links from default.sitemap using the Component External.</td>
+    </tr>
+    <tr>
+      <td>Simple Content</td>
+      <td>Displays Title, Date, Body and CTA.</td>
+    </tr>
+    <tr>
+      <td>Video</td>
+      <td>Responsive Youtube or Vimeo video using the Video ID.</td>
+    </tr>
+    <tr>
+      <td>Footer</td>
+      <td>Sticky Footer uses DCR to display the links in the footer.</td>
+    </tr>
+    <tr>
+      <td>Carousel</td>
+      <td>Content Items used to display images with Title, Body and CTA Button.</td>
+    </tr>
+    <tr>
+      <td>Card</td>
+      <td>This component uses DCR to display cards horizontally in a row of 2-4 tiles with Image, Title, Sub Title, Body and CTA from a DCR.</td>
+    </tr>
+    <tr>
+      <td>Social Sharing</td>
+      <td>This component uses DCR to fetch the social share sites to be included for sharing content. Also, it allows "ShareThis" to be setup. Users will need to provide the "ShareThis" Property ID in the component datum to enable "ShareThis" widget on the page.</td>
+    </tr>
+    <tr>
+      <td>Disqus</td>
+      <td>This component uses the <a href="https://disqus.com/">disqus plug-in</a>. The users need to register on disqus site and get the forum name. This short forum name needs to be set in the component datum to view Disqus on the site.</td>
+    </tr>
+    <tr>
+      <td>Adaptive Image</td>
+      <td>This component loads a different sized image based on the media size. It uses the OpenText Adaptive Media Images which can be transformed on the fly.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="template--blog-listing"><a class="anchor" id="template-blog-listing"><a></a>Template – Blog Listing</a></h2>
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image4.png" alt="Blog Listing Template" />  
+</div>
+<p> </p>
+
+<h2 id="template--blog-post">Template – Blog Post</h2>
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image5.png" alt="Blog Post Template" />  
+</div>
+<p> </p>
+
+<h2 id="template--modern-business">Template – Modern Business</h2>
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image6.png" alt="Modern Business Template" />
+</div>
+<p> </p>
+
+<h2 id="template--news-magazine">Template – News Magazine</h2>
+
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image7.png" alt="News Magazine Template" />
+</div>
+<p> </p>
+
+<h2 id="template--dark-theme">Template – Dark Theme</h2>
+
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image8.png" alt="Dark Theme Template" />
+</div>
+<p> </p>
+
+<h2 id="template--agency">Template – Agency</h2>
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image9.png" alt="Agency Template" />
+</div>
+<p> </p>
+
+<h2 id="template--shop-homepage">Template – Shop Homepage</h2>
+<div style="text-align: center;">
+<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image9.png" alt="Shop Homepage Template" />
+</div>
+<p> </p>
+:ET

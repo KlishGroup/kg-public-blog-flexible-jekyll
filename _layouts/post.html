@@ -2,7 +2,9 @@
 layout: main
 ---
 <article class="article-page">
+  <a class="back-button" role="button" href="{{site.baseurl}}/">Back to Listing</a>
   <div class="page-content">
+	<h1 class="page-title-mobile">{{page.title}}</h1>
     {% if page.img %}
     <div class="page-cover-image">
       <figure>
@@ -16,7 +18,7 @@ layout: main
     {% endif %}
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
+        <h1 class="page-title-desktop">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
@@ -34,4 +36,5 @@ layout: main
       </div>
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
+  <a class="back-button" role="button" href="{{site.baseurl}}/">Back to Listing</a>
 </article> <!-- End Article Page -->
