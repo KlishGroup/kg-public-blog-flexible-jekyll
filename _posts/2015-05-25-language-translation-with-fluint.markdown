@@ -3,7 +3,7 @@ layout: post
 title: Automated Translation Integration with TeamSite CMS
 date: 2021-05-20 13:32:20 +0300
 description: The importants of Translation, how localization works in TeamSite and tips on working with translated content. 
-img: pexels-pixabay-270360.jpg 	
+img: deere-translation-compare.png 	
 ---
 
 
@@ -73,8 +73,8 @@ There are several options for the folder structure of pages, content items, and 
 
 ### Example 1: Single Site Structure
 
-This is a case where the site’s structure is identical in all
-localized renditions of the site. One way to accomplish this is to build a single page but
+This is a case where the site’s structure is **identical in all**
+**localized renditions of the site**. One way to accomplish this is to build a single page but
 have the site query for different translated content items to each page individually based on the language code in the URL.
 
 <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/language-translation-with-fluint/image2.png" alt="One Page Uses Various Content Based On Localization" />
@@ -82,8 +82,8 @@ have the site query for different translated content items to each page individu
 ### Example 2: Independent Localized Sites
 
 There are times when it isn’t necessary to have the entire site
-structure available in each locale, but instead have a subset of pages
-that are tailed for a particular language. This is popular on sites that
+structure available in each locale, but instead have a **subset of pages**
+**that are tailed for a particular language.** This is popular on sites that
 want to appeal to an international audience without requiring a full
 site buildout or redesign. In this case the amount of translated content
 per locale can be easily controlled.
@@ -98,8 +98,8 @@ which integrates TeamSite with leading Translation Providers to allow
 simple, continuous translation of web content.​
 
 By using a collection of TeamSite Workflow Processes that guide the
-translation process within the CMS, Fluint enables content
-submission and retrieval within TeamSite platform.​
+translation process within the CMS, **Fluint enables content**
+**submission and retrieval within TeamSite platform.​**
 
 > **The Fluint Translation Connector can integrate both Machine and Human-backed translation providers to TeamSite via the content authoring workflow process.**  
 

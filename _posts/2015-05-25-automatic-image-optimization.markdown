@@ -14,8 +14,8 @@ As the growing trend of websites being viewed on handheld devices
 continues, it’s imperative that the content being served is providing
 the best experience for the user regardless of their chosen device.
 Responsive sites can make content look sleek and provide better layouts
-for the user’s chosen device, but having unoptimized images slows the
-whole system down.
+for the user’s chosen device, but **having unoptimized images slows the**
+**whole system down**.
 
 When it comes to delivering optimized images, there’s a sliding scale
 between resolution and image size. Obviously, we want the highest
@@ -100,10 +100,20 @@ build process we’ve put together this set of best practices:
 
 Working with Cloudinary, we’ve embraced an automated alternative to
 manually cutting images to match breakpoint sizes. Instead of providing
-an srcset of images at different sizes, authors include a single URL to
-their image and then Cloudinary takes over the job of determining the
+an srcset of images at different sizes, **authors include a single URL to**
+**their image and then Cloudinary takes over** the job of determining the
 correct (custom-defined) viewport and providing an image with the
 correct dimensions in an optimized file format.
+
+## What's Cloudinary?
+
+Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimizations to delivery.
+
+With Cloudinary, you can easily upload images and videos to the cloud and automate smart manipulations of those media which is then seamlessly delivered through a fast content delivery network (CDN).
+
+Additionally, Cloudinary offers comprehensive APIs and administration capabilities, which you can easily integrate with your web and mobile apps.
+
+[![name](http://res.cloudinary.com/cloudinary/image/upload/q_auto,f_auto,w_200/new_cloudinary_logo_square.png)](https://cloudinary.com/)
 
 ## Using the Power of Cloudinary Transforms
 
@@ -151,8 +161,8 @@ return a 1000px wide image.
 
 In addition to determining the width of the return image we can set
 specific aspect ratios and let Cloudinary auto-crop content to fit. To
-facilitate this, Klish Group has developed a set of default transforms
-for popular aspect ratios. The default transforms make use of
+facilitate this, **Klish Group has developed a set of default transforms**
+**for popular aspect ratios**. The default transforms make use of
 Cloudinary’s auto-gravity algorithm with searches for faces or points of
 interest in the image to focus on. Instead of automatically determining
 the focal point we can also force Cloudinary to use the image center.
@@ -172,36 +182,25 @@ automatically by adding them to a Cloudinary URL. These can be used to
 ensure images are device aware and can also be honed in to automatically
 crop and return a particular aspect ratio.
 
-**<u>Content Aware</u>**
-
--   t\_viewport\_and\_container\_aware – Picks breakpoint based on
-    viewport or container size
-
-**<u>Breakpoints</u>**
-
--   t\_sm\_viewport\_img – Returns 800px image
-
--   t\_md\_viewport\_img – Returns 1000px image
-
--   t\_lg\_viewport\_img – Returns 1200px image
-
--   t\_xl\_viewport\_img – Returns 1500px image
-
-**<u>Aspect Ratios</u>**
-
--   t\_1\_1\_aspect\_ratio – Crops image to 1:1
-
--   t\_16\_9\_aspect\_ratio – Crops image to 16:9
-
--   t\_4\_3\_aspect\_ratio – Crops image to 4:3
-
--   t\_3\_2\_aspect\_ratio – Crops image to 3:2
-
--   t\_8\_5\_aspect\_ratio – Crops image to 8 :5
-
--   t\_7\_4\_aspect\_ratio – Crops image to 7:4
-
--   t\_8\_3\_aspect\_ratio – Crops image to 8:3
+| Transform | Function |
+| --- | --- |
+| **Content Aware** | --- |
+| t\_viewport\_and\_container\_aware | Picks breakpoint based on viewport or container size |
+| --- | --- |
+| **Breakpoints** | --- |
+| t\_sm\_viewport\_img | Returns 800px image |
+| t\_md\_viewport\_img | Returns 1000px image |
+| t\_lg\_viewport\_img | Returns 1200px image |
+| t\_xl\_viewport\_img | Returns 1500px image |
+| --- | --- |
+| **Aspect Ratios** | --- |
+| t\_1\_1\_aspect\_ratio | Crops image to 1:1 |
+| t\_16\_9\_aspect\_ratio | Crops image to 16:9 |
+| t\_4\_3\_aspect\_ratio | Crops image to 4:3 |
+| t\_3\_2\_aspect\_ratio | Crops image to 3:2 |
+| t\_8\_5\_aspect\_ratio | Crops image to 8:5 |
+| t\_7\_4\_aspect\_ratio | Crops image to 7:4 |
+| t\_8\_3\_aspect\_ratio | Crops image to 8:3 |
 
 > Note : add "\_center” at the end to set gravity to “center”, default
 > is “auto”. Example: “t\_8\_3\_aspect\_ratio\_center”

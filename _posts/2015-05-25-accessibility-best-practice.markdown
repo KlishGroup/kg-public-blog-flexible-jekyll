@@ -153,3 +153,12 @@ guidelines are adhered to.
 
 	**[Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/djcglbmbegflehmbfleechkjhmedcopn?hl=en)**
 
+## Example Sites
+
+Here are some sites that the Klish team have worked on which adhere to some of the best practices:
+
+-  [Mass General Hospital](https://www.massgeneral.org/)
+-  [Spaulding Rehabilitation](https://spauldingrehab.org/)
+-  [Mass Eye and Ear](https://masseyeandear.org/)
+-  [John Deere](https://www.deere.com/en/)
+
