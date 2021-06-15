@@ -61,7 +61,7 @@ instructions in the README.txt file for installation details.
 
 That project contains an Authoring Guide, SPAR file, and README.
 
-[Click Here](https://res.cloudinary.com/klish-group/raw/upload/v1623777079/web/blog/documents/Experience_Studio_Components_Authoring_Guide.pptx) to take a look at the authoring guide for more details. 
+[Click Here](https://res.cloudinary.com/klish-group/image/upload/v1623783872/web/blog/documents/Experience_Studio_Components_Authoring_Guide.pdf) to take a look at the authoring guide for more details. 
 
 
 ## What’s Included in the SPAR?
