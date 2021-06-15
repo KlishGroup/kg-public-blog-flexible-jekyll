@@ -1751,10 +1751,12 @@ table {
 table thead tr th{
 	padding-left: 10px;
 	color: #042B69;
+	word-break: initial;
 }
 table tbody tr td{
 	padding-left: 10px; 
-	padding-right: 10px; 
+	padding-right: 10px;
+	word-break: initial;	
 }
 
 a.anchor {
