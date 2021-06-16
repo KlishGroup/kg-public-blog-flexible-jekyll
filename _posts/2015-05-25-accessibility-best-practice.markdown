@@ -2,7 +2,7 @@
 layout: post
 title: Site Accessibility Best Practices
 date: 2021-05-20 13:32:20 +0300
-img: pexels-andrew-neel-4134784.jpg
+img: screen-reader-narrator.jpg
 ---
 
 ### Tips and Tricks for implementing Web Content Accessibility Guidelines (WCAG)  
@@ -155,10 +155,10 @@ guidelines are adhered to.
 
 ## Example Sites
 
-Here are some sites that the Klish team have worked on which adhere to some of the best practices:
+Here are some sites that the Klish team has worked on which adhere to some of the best practices:
 
--  [Mass General Hospital](https://www.massgeneral.org/)
--  [Spaulding Rehabilitation](https://spauldingrehab.org/)
--  [Mass Eye and Ear](https://masseyeandear.org/)
 -  [John Deere](https://www.deere.com/en/)
+-  [Massachusetts General Hospital General Hospital](https://www.massgeneral.org/)
+-  [Massachusetts General Hospital Eye and Ear](https://masseyeandear.org/)
+-  [Spaulding Rehabilitation](https://spauldingrehab.org/)
 

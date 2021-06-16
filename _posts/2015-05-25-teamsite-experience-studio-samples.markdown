@@ -3,7 +3,7 @@ layout: post
 title: Sample Responsive Sites for TeamSite’s Experience Studio
 date: 2021-05-20 13:32:20 +0300
 description: Details on an Klish Group's Out Of the Box sample site native to Experience Studio
-img: mac.jpg
+img: mac-kg-blog.jpg
 ---
 
 ### Jumpstart your TeamSite Experience Studio build with pre-built Bootstrap and Foundation components and templates.  
@@ -59,9 +59,13 @@ instructions in the README.txt file for installation details.
 </div>
 <div style="text-align:center">SPAR of assets and Authoring Guide to download</div>-->
 
-That project contains an Authoring Guide, SPAR file, and README.
+The project contains an Authoring Guide, SPAR file, and README.
 
-[Click Here](https://res.cloudinary.com/klish-group/image/upload/v1623783872/web/blog/documents/Experience_Studio_Components_Authoring_Guide.pdf) to take a look at the authoring guide for more details. 
+[Download the SPAR](https://res.cloudinary.com/klish-group/raw/upload/v1623859716/web/blog/documents/estudio-component-guide/EstudioComponentGuide.spar)
+
+[Download the Authoring Guide](https://res.cloudinary.com/klish-group/image/upload/v1623783872/web/blog/documents/estudio-component-guide/Experience_Studio_Components_Authoring_Guide.pdf)
+
+[Download the README.txt](https://res.cloudinary.com/klish-group/raw/upload/v1623859899/web/blog/documents/estudio-component-guide/readme.txt)
 
 
 ## What’s Included in the SPAR?
