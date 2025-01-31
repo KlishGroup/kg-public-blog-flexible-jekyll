@@ -3,12 +3,12 @@ layout: post
 title: Site Accessibility Best Practices
 date: 2021-05-20 13:32:20 +0300
 img: screen-reader-narrator.jpg
+tags: [Accessibility,WCAG]
 ---
 
-### Tips and Tricks for implementing Web Content Accessibility Guidelines (WCAG)  
-&nbsp;  
+## Tips and Tricks for implementing Web Content Accessibility Guidelines (WCAG)
 
-## Summary
+### Summary
 
 As the websites, and the digital services they provide, reach more
 devices and users each year it’s imperative to focus on making the web
@@ -22,7 +22,7 @@ other users, physical limitations may require the use of a keyboard
 without a mouse, in which case using “tab” to navigate a page is
 necessity.
 
-## Official Guidelines
+### Official Guidelines
 
 As support for accessibility in the digital landscape grows, as do the
 guidelines provided by agencies that track the needs of these users. The
@@ -52,7 +52,7 @@ navigation:
 >
 > **AAA**: All functionality for content is operable through the keyboard
 
-## Klish Best Practices 
+### Klish Best Practices 
 
 At Klish Group we’ve had the opportunity to work on sites that strive to
 reach AAA accessibility ratings. Planning for accessibility needs to be
@@ -61,52 +61,32 @@ palette to how site navigation is handled. So when it comes to component
 design, we’ve developed a set of best practices to help ensure the
 guidelines are adhered to.
 
-1.  Adding in hidden “Accessibility Labels” alongside Call To Action
-    buttons for screen readers (can also use “aria-label” to accomplish
-    the same task, more below)
+1. Adding in hidden "Accessibility Labels" alongside Call To Action buttons for screen readers (can also use "aria-label" to accomplish the same task, more below)
 
-	> Example:
-	>
-	> &lt;a href="\#" &gt;Donate Now &lt;span class="visually-hidden"&gt;to
-	> the American Red Cross Relief Fund.&lt;/span&gt;&lt;/a&gt;
+    ```html
+    <a href="\#">Donate Now <span class="visually-hidden">to the American Red Cross Relief Fund.</span></a>
+    ```
 
-2.  Human-readable custom ID fields for tables and complex web elements.
+1. Human-readable custom ID fields for tables and complex web elements.
 
-	> &lt;table class=**"location-comparison-chart\_\_table
-	> data-table"**&gt;
-	>
-	> **   ** &lt;caption&gt;
-	>
-	> **       ** &lt;span class=**"visually-hidden"**&gt;**This is the
-	> summary for this data table! This is typically visually
-	> hidden.**&lt;/span&gt;
-	>
-	> **   ** &lt;/caption&gt;
-	>
-	> **   ** &lt;tr&gt;
-	>
-	> **       ** &lt;td&gt;*&nbsp;*&lt;/td&gt;
-	>
-	> **       ** &lt;th scope=**"col"** id=**"hospital-location-table"**
-	> class=**” locations-table"**&gt;
-	>
-	> **           ** &lt;span class=**"visually-hidden"**&gt;**Current
-	> Location:**&lt;/span&gt; **North Hospital Location**&lt;/th&gt;
-	>
-	> **       ** &lt;th scope=**"col"** id=**"south-hospital"**&gt; **South
-	> Hospital Location**&lt;/th&gt;
-	>
-	> **       ** &lt;th scope=**"col"** id=**"east-hospital"**&gt;**East
-	> Hospital Location**&lt;/th&gt;
-	>
-	> **   ** &lt;/tr&gt;
-	>
-	> **   ...**
-	>
-	> &lt;/table&gt;
+    ```html
+    <table class="location-comparison-chart__table data-table">
+        <caption>
+            <span class="visually-hidden">This is the summary for this data table! This is typically visually hidden.</span>
+        </caption>
 
-3.  Providing “alt” text for all image tags. Adding the alt attribute
-    addresses a handful of cases:
+        <tr>
+            <td> </td>
+            <th scope="col" id="hospital-location-table" class="locations-table">
+                    <span class="visually-hidden">Current Location:</span> North Hospital Location
+            </th>
+            <th scope="col" id="south-hospital"> South Hospital Location</th>
+            <th scope="col" id="east-hospital">East Hospital Location</th>
+        </tr>
+    </table>
+    ```
+
+1. Providing “alt” text for all image tags. Adding the alt attribute addresses a handful of cases:
 
 	*  ALT tags can be used for keyword identification related to the
 		image, which can be leveraged by search engines.
@@ -117,48 +97,39 @@ guidelines are adhered to.
 		provide additional information
 
 	*  ALT tags provide a text alternative of the image for users on screen
-		readers.
+		readers.  Example:
 
-		> Example:
-		>
-		> &lt;img src="img\_girl.jpg" alt="Girl in a jacket"&gt;
+		```html
+        <img src="img_girl.jpg" alt="Girl in a jacket"/>
+        ```
 
-4.  Using the Accessible Rich Internet Applications (ARIA) for providing
-    extra context
+1. Using the Accessible Rich Internet Applications (ARIA) for providing extra context.  Example:
 
-	> &lt;nav aria-describedby=**"utility-nav-title"** role=**"navigation"**
-	> class=**"utility-nav"**&gt;
+    ```html
+    <nav aria-describedby="utility-nav-title" role="navigation" class="utility-nav">
+    ```
 
-	In this case “role” is defining that this is a navigation-specific
-	element and “aria-describedby” contains a descriptive name to identify
-	this as a navigation bar for Utility links.
+    In this case “role” is defining that this is a navigation-specific element and “aria-describedby” contains a descriptive name to identify this as a navigation bar for Utility links.
 
-5.  Using “Skip Navigation” links to allow screen reader users to bypass
-    large blocks of navigation content
+1. Using “Skip Navigation” links to allow screen reader users to bypass large blocks of navigation content.  Example:
 
-	Example:
+    ```html
+    <div href="#skipContent" class="visually-hidden" id="sidebar-navigation-title">Skip navigation</div>
+    ```
 
-	> &lt;div href=**"\#skipContent"** class=**"visually-hidden"**
-	> id=**"sidebar-navigation-title"**&gt;**Skip navigation**&lt;/div&gt;
+1. Placing Navigation elements as close to the top of the DOM structure as possible aids with skipping sections of navigation. Otherwise by providing the above “skip navigation” button you risk skipping  vital page content, like article titles.
 
-6.  Placing Navigation elements as close to the top of the DOM structure
-    as possible aids with skipping sections of navigation. Otherwise by
-    providing the above “skip navigation” button you risk skipping vital
-    page content, like article titles.
+1. Use tools to validate compliance:
 
+	* **[Color Contrast Application](https://www.tpgi.com/color-contrast-checker/)** - this can even be used during Design to test in PDFs or Figma.
 
-7.  Use tools to validate compliance:
+	* **[Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/djcglbmbegflehmbfleechkjhmedcopn?hl=en)**
 
-	**[Color Contrast Application](https://www.tpgi.com/color-contrast-checker/)** - this can even be used during Design to test in PDFs or Figma.
-
-	**[Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/djcglbmbegflehmbfleechkjhmedcopn?hl=en)**
-
-## Example Sites
+### Example Sites
 
 Here are some sites that the Klish team has worked on which adhere to some of the best practices:
 
 -  [John Deere](https://www.deere.com/en/)
--  [Massachusetts General Hospital General Hospital](https://www.massgeneral.org/)
--  [Massachusetts General Hospital Eye and Ear](https://masseyeandear.org/)
+-  [Massachusetts General Hospital](https://www.massgeneral.org/)
+-  [Mass Eye and Ear](https://masseyeandear.org/)
 -  [Spaulding Rehabilitation](https://spauldingrehab.org/)
-

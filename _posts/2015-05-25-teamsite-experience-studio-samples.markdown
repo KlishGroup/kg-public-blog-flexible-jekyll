@@ -6,10 +6,9 @@ description: Details on an Klish Group's Out Of the Box sample site native to Ex
 img: mac-kg-blog.jpg
 ---
 
-### Jumpstart your TeamSite Experience Studio build with pre-built Bootstrap and Foundation components and templates.  
-&nbsp;  
+## Jumpstart your TeamSite Experience Studio build with pre-built Bootstrap and Foundation components and templates.
 
-## Experience TeamSite’s New Interface, Experience Studio
+### Experience TeamSite’s New Interface, Experience Studio
 
 [OpenText’s
 TeamSite](https://www.opentext.com/products-and-solutions/products/customer-experience-management/web-content-management/opentext-teamsite)
@@ -20,44 +19,33 @@ components, edit, preview and publish single page applications (SPAs)
 and integrated content search capabilities allowing organizations to
 “create once, publish anywhere.”
 
-[See a sample of the interface in
-use!](https://v2e9r2n5.map2.ssl.hwcdn.net/vidad/sunnyside.vidavee.com/opentext/OTUnrestricted/A7C49BEA1DCF55A2C357339A6E13E754.mp4)
-
-## Seeing Is Believing
+### Seeing Is Believing
 
 In order to showcase the example uses of this interface, Klish Group has
 developed sample sites based on the Foundation (versions 5 and 6) and Bootstrap
 (versions 3 and 4) frameworks. These **sites contain all the pieces required for a**
 **modernized content authoring experience**. Each site includes sample:
 
+-   Components 
+-   Content Templates
 -   Page Templates
 -   Pages
--   Content Templates
--   Components 
 
 <div style="text-align:center">
 <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image1.png" alt="Sample Components" />
 </div>
 <div style="text-align:center">Sample Bootstrap Components for use in Experience Studio</div>
 
-## Getting Hands On
+### Getting Hands On
 
 [The SPAR (Site Publisher ARchive) file can be downloaded](https://knowledge.opentext.com/knowledge/llisapi.dll/open/69460803)
 from the OpenText knowledge base. The project is named “TeamSite Add-Ons from
-Partners”.  Follow the
-instructions in the README.txt file for installation details.
+Partners”.  Follow the instructions in the README.txt file for installation details.
 
 <div style="text-align:center">
 <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image2.png" alt="TeamSite Add-Ons" />
 </div>
 <div style="text-align:center">TeamSite Add-Ons from Partners project from the OpenText MySupport site</div>
-&nbsp;  
-
-
-<!--<div style="text-align:center">
-<img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image3.png" alt="Downloadable Assets Available on OpenText Knowledge Base" />
-</div>
-<div style="text-align:center">SPAR of assets and Authoring Guide to download</div>-->
 
 The project contains an Authoring Guide, SPAR file, and README.
 
@@ -78,8 +66,7 @@ The SPAR contains four sites: Bootstrap, Bootstrap 4, Foundation, and Foundation
 -  [Blog Post](#template-blog-post)
 -  [News Agency](#template-agency)
 
-Pages can be created utilizing the following components, which have all
-been developed in XSL 2.0:
+Pages can be created utilizing the following components, which have all been developed in XSL 2.0:
 
 | Component Name | Description |
 | --- | --- |
@@ -95,18 +82,17 @@ been developed in XSL 2.0:
 | Disqus | This component uses the [disqus plug-in](https://disqus.com/). The users need to register on disqus site and get the forum name. This short forum name needs to be set in the component datum to view Disqus on the site. |
 | Adaptive Image | This component loads a different sized image based on the media size. It uses the OpenText Adaptive Media Images which can be transformed on the fly. | 
 
-
 ## <a class="anchor" id="template-blog-listing"><a/>Template – Blog Listing
 <div style="text-align: center;">
 <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image4.png"  alt="Blog Listing Template"/>  
 </div>
-&nbsp;  
+&nbsp;
 
 ## <a class="anchor" id="template-blog-post"><a/>Template – Blog Post
 <div style="text-align: center;">
 <img src="https://res.cloudinary.com/klish-group/image/upload/f_auto,q_auto,w_auto/web/blog/images/estudio-sample-site/image5.png" alt="Blog Post Template"/>  
 </div>
-&nbsp;  
+&nbsp;
 
 ## <a class="anchor" id="template-modern-business"><a/>Template – Modern Business
 <div style="text-align: center;">
