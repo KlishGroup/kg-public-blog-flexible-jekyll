@@ -9,8 +9,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Klish Group # add your name
 author-img: kg-blog-logo.jpg # add your photo
-about-author: We are Klish Group, a consulting firm specializing in Web and Digital Content Management strategy, design and implementation.  With over 15 years of experience as architects and systems integrators # add description
-social-twitter: klishgroup # add your Twitter handle
+about-author: We are Klish Group, Inc. a services and solution company with over twenty years of experience specializing in Digital Experience Management strategy, design and implementation.
+#social-twitter: klishgroup # add your Twitter handle
 #social-facebook: # add your Facebook handle
 #social-github:  # add your Github handle
 social-linkedin: /company/klish-group # add your Linkedin handle

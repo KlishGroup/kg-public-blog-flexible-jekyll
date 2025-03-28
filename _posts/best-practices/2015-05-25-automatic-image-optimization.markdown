@@ -5,10 +5,9 @@ date: 2021-05-20 13:32:20 +0300
 img: web-design-viewport.jpg
 ---	
 
-### Use Cloudinary to automatically optimize images and dramatically improve the performance of your website
-&nbsp; 
+## Use Cloudinary to automatically optimize images and dramatically improve the performance of your website
 
-## Summary
+### Summary
 
 As the growing trend of websites being viewed on handheld devices
 continues, it’s imperative that the content being served is providing
@@ -25,15 +24,9 @@ with multiple sources, and leaving it up to the browser to pick the
 right source at runtime.
 
 ```html
-<img srcset="example-480w.jpg 480w,
- 
- example-800w.jpg 800w"
- 
- sizes="(max-width: 600px) 480px,
- 
- 800px"
- 
- src="example-800w.jpg">
+<img srcset="example-480w.jpg 480w, example-800w.jpg 800w"
+     sizes="(max-width: 600px) 480px, 800px"
+     src="example-800w.jpg">
  ```
 
 > The above bootstrap example will return a 480px or 800px version of the
@@ -42,12 +35,12 @@ images must be manually sized to particular proportions available in
 advance. A task which often falls to content authors when it
 comes to adding images to their articles.
 
-## Providing the Best Experience
+### Providing the Best Experience
 
 In order ensure that optimization is always respected during the site
 build process we’ve put together this set of best practices:
 
-1.  **Compress all possible assets.**
+1. **Compress all possible assets.**
 
     *  In general, runtime servers should be configured to return all
         content compressed with [Brotli](https://brotli.org/) or
@@ -65,14 +58,14 @@ build process we’ve put together this set of best practices:
         adopted by more browers ([Image Format
         Comparison](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types))
 
-2.  **Start with high resolution images.** There’s nothing more
+1. **Start with high resolution images.** There’s nothing more
     frustrating than having a pixelated image taking up the full
     viewport. We request that all images being used are at least 1600
     x 500. A smaller height can be used if skinny banners are a part of
     the design, but keeping the width to 1600 ensures that even on the
     largest screens the image will not pixelate.
 
-3.  **Target high value images in layout.** Sometimes it’s not possible
+1. **Target high value images in layout.** Sometimes it’s not possible
     to provide responsive images with multiple breakpoints for every
     image on a site. In those cases we identify the greatest return for
     optimizations by gauging the size of the image in the layout (the
@@ -81,7 +74,7 @@ build process we’ve put together this set of best practices:
     contact page). As such ,the lowest hanging fruit is generally large
     heroes, banners, carousels, profile pictures, etc.
 
-4.  **Know your breakpoints.** Setting your layout’s breakpoints early
+1. **Know your breakpoints.** Setting your layout’s breakpoints early
     can help determine image dimensions and can help predict the level
     of additional work that will be needed to resize images. Breakpoints
     exist on a floating scale between optimization and image resize
@@ -90,22 +83,22 @@ build process we’ve put together this set of best practices:
     dimensions. We follow the default bootstrap breakpoints as a
     starting point for our designs:
 
-> Larger mobile phones (devices with resolutions ≥ 576px);
->
-> Tablets (≥768px);
->
-> Laptops (≥992px);
->
-> Desktops (≥1200px)
+    > Larger mobile phones (devices with resolutions ≥ 576px);
+    >
+    > Tablets (≥768px);
+    >
+    > Laptops (≥992px);
+    >
+    > Desktops (≥1200px)
 
 Working with Cloudinary, we’ve embraced an automated alternative to
 manually cutting images to match breakpoint sizes. Instead of providing
-an srcset of images at different sizes, **authors include a single URL to**
+a srcset of images at different sizes, **authors include a single URL to**
 **their image and then Cloudinary takes over** the job of determining the
 correct (custom-defined) viewport and providing an image with the
 correct dimensions in an optimized file format.
 
-## What's Cloudinary?
+### What's Cloudinary?
 
 Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimizations to delivery.
 
@@ -115,20 +108,19 @@ Additionally, Cloudinary offers comprehensive APIs and administration capabiliti
 
 [![name](http://res.cloudinary.com/cloudinary/image/upload/q_auto,f_auto,w_200/new_cloudinary_logo_square.png)](https://cloudinary.com/)
 
-## Using the Power of Cloudinary Transforms
+### Using the Power of Cloudinary Transforms
 
 By utilizing Cloudinary’s on-the-fly transformations along with some
 conditional logic we’re able to produce a single URL that will
 automatically return an image that is:
 
--   Aware of both the size of the device viewport and the image’s own
-    container
+- Aware of both the size of the device viewport and the image’s own container
 
--   Optimized for the give pre-defined breakpoint
+- Optimized for the give pre-defined breakpoint
 
--   Automatically cropped to fit given dimensions (optional)
+- Automatically cropped to fit given dimensions (optional)
 
--   Using the best-available file format
+- Using the best-available file format
 
 Using custom transforms we’re able to inject
 “t\_viewport\_and\_container\_aware” into a Cloudinary image URL. When
@@ -152,9 +144,10 @@ At runtime the viewport width (vw) and container width (cw) are added:
 > container is hidden on page load (carousels, tabbed content, etc). In
 > which case the viewport width is used.
 >
-> https://res.cloudinary.com/example/image/upload/$vw\_999/$cw\_995/t\_viewport\_and\_container\_aware/Test/planet-earth-banner.jpg
 
-Using the case above the container width is 995px and comparing that to
+Resulting Image URL: https://res.cloudinary.com/example/image/upload/**$vw_999/$cw_995/t_viewport_and_containers_aware**/Test/planet-earth-banner.jpg
+
+Using the case above, the container width is 995px and comparing that to
 the default best practice breakpoints requires that cloudinary returns
 an image with a width greater than 992px. In that case, cloudinary would
 return a 1000px wide image.
@@ -175,7 +168,7 @@ transform mentioned above, the utility can be combined in order to
 provide specific aspect ratios, or any other image manipulation, based
 on breakpoints.
 
-## Default Image Transforms
+### Default Image Transforms
 
 Klish Group has created a handful of default transforms that can be used
 automatically by adding them to a Cloudinary URL. These can be used to
